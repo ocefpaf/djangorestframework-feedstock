@@ -5,7 +5,7 @@ Home: http://www.django-rest-framework.org
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Web APIs for Django, made easy
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/djangorestframework-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/djangorestframework-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/djangorestframework-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/djangorestframework-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/djangorestframework-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/djangorestframework-feedstock/branch/master)
