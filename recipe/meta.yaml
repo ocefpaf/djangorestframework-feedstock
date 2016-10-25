@@ -1,39 +1,39 @@
-{% set version = "3.4.7" %}
+{% set version = "3.5.1" %}
 
 package:
-    name: djangorestframework
-    version: {{ version }}
+  name: djangorestframework
+  version: {{ version }}
 
 source:
-    fn: djangorestframework-{{ version }}.tar.gz
-    url: https://github.com/tomchristie/django-rest-framework/archive/{{ version }}.tar.gz
-    sha256: 1628b9ae459258cd1bdeb719d193dc1726de484535ca68e5721e8cf0b8caadba
+  fn: djangorestframework-{{ version }}.tar.gz
+  url: https://github.com/tomchristie/django-rest-framework/archive/{{ version }}.tar.gz
+  sha256: 7c64148fc538c7e5034966213e1ea7eced463b07402c134e66d91830f1a253c5
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
+  build:
+    - python
+    - setuptools
+  run:
+    - python
 
 test:
-    imports:
-        - rest_framework
-        - rest_framework.authtoken
-        - rest_framework.authtoken.migrations
-        - rest_framework.templatetags
-        - rest_framework.utils
+  imports:
+    - rest_framework
+    - rest_framework.authtoken
+    - rest_framework.authtoken.migrations
+    - rest_framework.templatetags
+    - rest_framework.utils
 
 about:
-    home: http://www.django-rest-framework.org
-    license: BSD 2-Clause
-    summary: 'Web APIs for Django, made easy.'
+  home: http://www.django-rest-framework.org
+  license: BSD 2-Clause
+  summary: 'Web APIs for Django, made easy.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
-        - kwilcox
+  recipe-maintainers:
+    - ocefpaf
+    - kwilcox
