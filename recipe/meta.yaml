@@ -1,4 +1,4 @@
-{% set version = "3.5.1" %}
+{% set version = "3.5.2" %}
 
 package:
   name: djangorestframework
@@ -7,7 +7,7 @@ package:
 source:
   fn: djangorestframework-{{ version }}.tar.gz
   url: https://github.com/tomchristie/django-rest-framework/archive/{{ version }}.tar.gz
-  sha256: 7c64148fc538c7e5034966213e1ea7eced463b07402c134e66d91830f1a253c5
+  sha256: 9daca41f0027dab841546018e8a66e004358d0d5cb8c9507371b428c5286eb5f
 
 build:
   number: 0
