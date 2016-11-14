@@ -33,7 +33,6 @@ conda search djangorestframework --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
