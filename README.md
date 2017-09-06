@@ -7,16 +7,14 @@ Package license: BSD 2-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Web APIs for Django, made easy.
+Summary: Web APIs for Django, made easy
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/djangorestframework-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/djangorestframework-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/djangorestframework-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/djangorestframework-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/djangorestframework-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/djangorestframework-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/djangorestframework-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/djangorestframework-feedstock)
 
 Current release info
 ====================
