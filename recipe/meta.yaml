@@ -1,4 +1,4 @@
-{% set version = "3.7.1" %}
+{% set version = "3.7.3" %}
 
 package:
   name: djangorestframework
@@ -6,17 +6,17 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/djangorestframework/djangorestframework-{{ version }}.tar.gz
-  sha256: 305b2c6564ca46d3b558ba21110ed717135c467adf1a6dfd192bd85f4bb04d50
+  sha256: 067960e5e9e5586d3b2d53a1d626c4800dc33cd8309487d404fc63355674556f
 
 build:
   number: 0
   noarch: python
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
 
