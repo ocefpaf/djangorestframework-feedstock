@@ -1,4 +1,4 @@
-{% set version = "3.8.1" %}
+{% set version = "3.8.2" %}
 
 package:
   name: djangorestframework
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/djangorestframework/djangorestframework-{{ version }}.tar.gz
-  sha256: 89439264265d1b659194991a40061074036923842c3de7fc3998e00cc0217bcd
+  sha256: b6714c3e4b0f8d524f193c91ecf5f5450092c2145439ac2769711f7eba89a9d9
 
 build:
   number: 0
